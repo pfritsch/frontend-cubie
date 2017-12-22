@@ -1,0 +1,49 @@
+{
+  "name": "I-datech",
+  "version": "0.0.1",
+  "description": "Espace #immo",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Impact Positif <hello@impact-positif.fr>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "breakpoint-sass": "^2.7.1",
+    "browser-sync": "^2.6.4",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.5.2",
+    "gulp-hb": "^6.0.2",
+    "gulp-header": "^1.2.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify-html": "^1.0.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sitemap": "^4.2.0",
+    "gulp-sourcemaps": "2.4.1",
+    "gulp-styledown": "0.0.2",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-svgstore": "^6.1.0",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "normalize.css": "^7.0.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,11 @@
+body {
+  font-family: $base-font-family;
+  font-size:1.4rem;
+  color: $color-secondary;
+}
+.container {
+  @include breakpoint($break-large) {
+    margin: auto;
+    max-width: $break-large;
+  }
+}
