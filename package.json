@@ -1,7 +1,7 @@
 {
-  "name": "I-datech",
-  "version": "0.0.1",
-  "description": "Espace #immo",
+  "name": "Frontend Cubie",
+  "version": "0.2.0",
+  "description": "The little front-end companion. Cubie is an HTML5 starter kit that includes: package and task management, local server with browser synchronization, beautiful auto-generated documentation, styles pre-processor, files minification and images optimisation.",
   "homepage": "",
   "repository": {
     "type": "git",
