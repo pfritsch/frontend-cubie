@@ -1,4 +1,8 @@
+html {
+  height: 100%;
+}
 body {
+  min-height: 100%;
   font-family: $base-font-family;
   font-size:1.4rem;
   color: $color-secondary;
