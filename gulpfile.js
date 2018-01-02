@@ -151,6 +151,15 @@ gulp.task('scripts', function () {
     }))
 })
 
+// Vendors components main scripts files
+gulp.task('vendors', function () {
+  var vendorsJS = [''] // List the NPM components here
+  return gulp.src(vendorsJS)
+    .pipe(concat('vendors.min.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest(dist + 'scripts'))
+})
+
 // STYLES
 // LibSass, Minified
 gulp.task('styles', function () {
