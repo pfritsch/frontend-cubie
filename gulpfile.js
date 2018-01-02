@@ -97,14 +97,11 @@ gulp.task('template', function () {
   function fileContents (filePath, file) {
     return file.contents.toString()
   }
-  return gulp.src(src + '**/*.hbs')
-    .pipe(handlebars({
-      debug: false,
-      bustCache: true,
-      partials: [
-        src + 'partials/**/*.hbs'
-      ]
-    }))
+  return gulp.src(src + '*.hbs')
+    .pipe(handlebars()
+      .partials(src + 'partials/**/*.hbs')
+      .data(src + 'assets/data/**/*.{js,json}')
+    )
     .pipe(rename({extname: '.html'}))
     .pipe(inject(svgs, { transform: fileContents }))
     .pipe(minifyHTML({
