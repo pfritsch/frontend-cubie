@@ -240,7 +240,7 @@ gulp.task('clean', function () {
 })
 
 // BUILD
-gulp.task('build', ['copy', 'fonts', 'template', 'images', 'svg-sprite', 'scripts', 'styles', 'styleguide'], reload)
+gulp.task('build', ['copy', 'fonts', 'template', 'images', 'svg-sprite', 'vendors', 'scripts', 'styles', 'styleguide'], reload)
 
 // SERVER
 // Browser Sync (wait build task to be done)
